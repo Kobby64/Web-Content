@@ -1,0 +1,23 @@
+#Home work 7
+
+#required functions
+#request function
+#beautiful shop
+
+import urllib.request
+from bs4 import BeautifulSoup
+
+url = input("Enter a URL to check: ")
+quit_options=[ 'x', 'q', 'exit', 'quit'] 
+
+while True:
+ try:
+        page = urllib.request.urlopen(url)
+        
+        if exp in quit_options:
+            print("End Program!!")
+            break
+    
+            #successful retrieval
+            if(rcode = 200):
+            print ("Successful retrieval)
